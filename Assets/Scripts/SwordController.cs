@@ -10,6 +10,7 @@ public class SwordController : MonoBehaviour
 
     private const string IDLE = "Idle";
     private const string STAB = "Stab";
+    private const string CHOP = "Chop";
 
     void Awake()
     {
@@ -22,7 +23,11 @@ public class SwordController : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             animatorComponent.Play(STAB);
-            print("stab");
+        }
+
+        if (Input.GetButtonDown("Fire2"))
+        {
+            animatorComponent.Play(CHOP);
         }
     }
 }
