@@ -431,6 +431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   swordParentController: {fileID: 114909237261737668}
+  damage: 10
 --- !u!114 &114252005425518462
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -555,8 +556,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b71290479d5fbb944b2433a5ee4b5e8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  swordParent: {fileID: 1662753792117030}
-  maxHealth: 100
+  swordParentController: {fileID: 114909237261737668}
+  maxHealth: 50
+  healthText: {fileID: 0}
 --- !u!114 &114534288459120214
 MonoBehaviour:
   m_ObjectHideFlags: 1

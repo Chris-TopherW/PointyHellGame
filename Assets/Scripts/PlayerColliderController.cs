@@ -8,9 +8,11 @@ public class PlayerColliderController : MonoBehaviour {
 
     void OnTriggerEnter(Collider collider)
     {
-        if (collider.gameObject.name == "Sword" && collider.gameObject.tag != tag && !collider.gameObject.GetComponent<SwordController>().ParentIdle())
+        GameObject other = collider.gameObject;
+
+        if (other.name == "Sword" && other.tag != tag && !other.GetComponent<SwordController>().ParentIdle())
         {
-            playerController.Hit();
+            playerController.Hit(other.GetComponent<SwordController>().damage);
         }
     }
 }

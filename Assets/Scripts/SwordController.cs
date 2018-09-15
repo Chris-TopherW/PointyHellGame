@@ -5,6 +5,7 @@ using UnityEngine;
 public class SwordController : MonoBehaviour {
 
     public SwordParentController swordParentController;
+    public int damage = 10;
 
     public bool ParentIdle()
     {

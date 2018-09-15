@@ -1,14 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour {
 
     public SwordParentController swordParentController;
     public int maxHealth = 100;
+    public Text healthText;
 
     private int health;
-    private bool dead;
 
     private Vector3 initialPosition;
     private Quaternion initialRotation;
@@ -30,16 +31,18 @@ public class PlayerController : MonoBehaviour {
         {
             swordParentController.Chop();
         }
+
+        healthText.text = health + " hp remaining";
     }
 
-    public bool Dead()
+    public bool IsDead()
     {
         return health <= 0;
     }
 
-    public void Hit()
+    public void Hit(int damage)
     {
-        health -= 10;
+        health = Mathf.Max(health - damage, 0);
     }
 
     public void Reset()
