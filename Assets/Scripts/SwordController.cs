@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class SwordController : MonoBehaviour {
 
-    private Quaternion startingRotation;
-    public bool animating = false;
-    public float animationPercent = 0.0f;
+    public GameObject parent;
+
+    private bool animating = false;
+    private float animationPercent = 0.0f;
 
     // Use this for initialization
     void Start () {
-        startingRotation = transform.rotation;
+        //startingRotation = transform.rotation;
     }
 
     // Update is called once per frame
@@ -24,12 +25,11 @@ public class SwordController : MonoBehaviour {
             animationPercent += 0.05f;
         }
 
-        //float t = animationPercent < 0.5f ? animationPercent * 2.0f : 1.0f - (animationPercent - 0.5f) * 2.0f;
         float t = animationPercent < 0.5f ? Map(animationPercent, 0.0f, 0.5f, 0.0f, 1.0f) : Map(animationPercent, 0.5f, 1.0f, 1.0f, 0.0f);
 
         transform.rotation = Quaternion.Lerp(
-            startingRotation,
-            startingRotation * Quaternion.AngleAxis(180, Vector3.up),
+            parent.transform.rotation,
+            parent.transform.rotation * Quaternion.AngleAxis(180, Vector3.up),
             t
         );
 
