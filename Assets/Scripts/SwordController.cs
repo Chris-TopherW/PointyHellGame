@@ -6,6 +6,8 @@ public class SwordController : MonoBehaviour {
 
     public GameObject parent;
 
+    public float velocity = 0.1f;
+
     private bool animating = false;
     private float animationPercent = 0.0f;
 
@@ -22,7 +24,7 @@ public class SwordController : MonoBehaviour {
         }
 
         if (animating) {
-            animationPercent += 0.05f;
+            animationPercent += velocity;
         }
 
         float t = animationPercent < 0.5f ? Map(animationPercent, 0.0f, 0.5f, 0.0f, 1.0f) : Map(animationPercent, 0.5f, 1.0f, 1.0f, 0.0f);
