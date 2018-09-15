@@ -21,17 +21,21 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private Quaternion m_CameraTargetRot;
         private bool m_cursorIsLocked = true;
 
-        public void Init(Transform character, Transform camera)
+        private string controller;
+
+        public void Init(Transform character, Transform camera, string controller)
         {
             m_CharacterTargetRot = character.localRotation;
             m_CameraTargetRot = camera.localRotation;
+
+            this.controller = controller;
         }
 
 
         public void LookRotation(Transform character, Transform camera)
         {
-            float yRot = CrossPlatformInputManager.GetAxis("Mouse X") * XSensitivity;
-            float xRot = CrossPlatformInputManager.GetAxis("Mouse Y") * YSensitivity;
+            float yRot = CrossPlatformInputManager.GetAxis(controller + " X") * XSensitivity;
+            float xRot = CrossPlatformInputManager.GetAxis(controller + " Y") * YSensitivity;
 
             if (Mathf.Abs(yRot) < 0.1f)
             {

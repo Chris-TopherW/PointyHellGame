@@ -6,31 +6,36 @@ public class SwordController : MonoBehaviour
 {
 
     private Animator animatorComponent;
-    private Renderer rendererComponent;
 
     private const string IDLE = "Idle";
     private const string STAB = "Stab";
     private const string CHOP = "Chop";
 
+    private string controller;
+
     void Awake()
     {
         animatorComponent = GetComponent<Animator>();
-        rendererComponent = GetComponent<Renderer>();
     }
 
-    void Update()
+    public void Stab()
     {
-        if (animatorComponent.GetCurrentAnimatorStateInfo(0).IsName(IDLE))
+        if (IsIdle())
         {
-            if (Input.GetButtonDown("Fire1"))
-            {
-                animatorComponent.Play(STAB);
-            }
-
-            if (Input.GetButtonDown("Fire2"))
-            {
-                animatorComponent.Play(CHOP);
-            }
+            animatorComponent.Play(STAB);
         }
+    }
+
+    public void Chop()
+    {
+        if (IsIdle())
+        {
+            animatorComponent.Play(CHOP);
+        }
+    }
+
+    bool IsIdle()
+    {
+        return animatorComponent.GetCurrentAnimatorStateInfo(0).IsName(IDLE);
     }
 }
