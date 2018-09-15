@@ -2,40 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SwordController : MonoBehaviour
-{
+public class SwordController : MonoBehaviour {
 
-    private Animator animatorComponent;
+    public SwordParentController swordParentController;
 
-    private const string IDLE = "Idle";
-    private const string STAB = "Stab";
-    private const string CHOP = "Chop";
-
-    private string controller;
-
-    void Awake()
+    public bool ParentIdle()
     {
-        animatorComponent = GetComponent<Animator>();
-    }
-
-    public void Stab()
-    {
-        if (IsIdle())
-        {
-            animatorComponent.Play(STAB);
-        }
-    }
-
-    public void Chop()
-    {
-        if (IsIdle())
-        {
-            animatorComponent.Play(CHOP);
-        }
-    }
-
-    bool IsIdle()
-    {
-        return animatorComponent.GetCurrentAnimatorStateInfo(0).IsName(IDLE);
+        return swordParentController.IsIdle();
     }
 }

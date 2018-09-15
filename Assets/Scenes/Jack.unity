@@ -235,14 +235,36 @@ Prefab:
       propertyPath: m_Name
       value: Player 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4122873208432170, guid: 89064beb9c043d846bc88c4f99002683, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
+    - target: {fileID: 114366391339667088, guid: 89064beb9c043d846bc88c4f99002683,
+        type: 2}
+      propertyPath: maxHealth
+      value: 50
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114689865506782778, guid: 89064beb9c043d846bc88c4f99002683, type: 2}
+    - target: {fileID: 114366391339667088, guid: 89064beb9c043d846bc88c4f99002683,
+        type: 2}
+      propertyPath: swordParentController
+      value: 
+      objectReference: {fileID: 676656856}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 89064beb9c043d846bc88c4f99002683, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &422581630 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114366391339667088, guid: 89064beb9c043d846bc88c4f99002683,
+    type: 2}
+  m_PrefabInternal: {fileID: 310099998}
+  m_Script: {fileID: 11500000, guid: b71290479d5fbb944b2433a5ee4b5e8b, type: 3}
+--- !u!1 &426441420 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1815499283240606, guid: 89064beb9c043d846bc88c4f99002683,
+    type: 2}
+  m_PrefabInternal: {fileID: 1905671267}
+--- !u!114 &426441421 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114366391339667088, guid: 89064beb9c043d846bc88c4f99002683,
+    type: 2}
+  m_PrefabInternal: {fileID: 1905671267}
+  m_Script: {fileID: 11500000, guid: b71290479d5fbb944b2433a5ee4b5e8b, type: 3}
 --- !u!1 &450484246
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,7 +454,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 644001909}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!92 &644001911
 Behaviour:
   m_ObjectHideFlags: 0
@@ -496,6 +518,12 @@ Transform:
   m_Father: {fileID: 1419803792}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &676656856 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114909237261737668, guid: 89064beb9c043d846bc88c4f99002683,
+    type: 2}
+  m_PrefabInternal: {fileID: 310099998}
+  m_Script: {fileID: 11500000, guid: c19ea672a130d7e4ea499ebecde7fdf3, type: 3}
 --- !u!1 &743811786
 GameObject:
   m_ObjectHideFlags: 0
@@ -629,6 +657,48 @@ Transform:
   - {fileID: 1252042400}
   m_Father: {fileID: 0}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &863433566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 863433568}
+  - component: {fileID: 863433567}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &863433567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 863433566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb8ef87342e16a4086b1a528bbd810a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerController1: {fileID: 422581630}
+  playerController2: {fileID: 426441421}
+--- !u!4 &863433568
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 863433566}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.62940955, z: 0.48296285}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1108766729
 GameObject:
@@ -889,6 +959,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1451477915 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1662753792117030, guid: 89064beb9c043d846bc88c4f99002683,
+    type: 2}
+  m_PrefabInternal: {fileID: 1905671267}
+--- !u!114 &1451477918 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114909237261737668, guid: 89064beb9c043d846bc88c4f99002683,
+    type: 2}
+  m_PrefabInternal: {fileID: 1905671267}
+  m_Script: {fileID: 11500000, guid: c19ea672a130d7e4ea499ebecde7fdf3, type: 3}
 --- !u!1 &1654176385
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,6 +1292,54 @@ Prefab:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
+    - target: {fileID: 136403970839629320, guid: 89064beb9c043d846bc88c4f99002683,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 81899088405400162, guid: 89064beb9c043d846bc88c4f99002683,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114534288459120214, guid: 89064beb9c043d846bc88c4f99002683,
+        type: 2}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 426441420}
+    - target: {fileID: 1191587005393922, guid: 89064beb9c043d846bc88c4f99002683, type: 2}
+      propertyPath: m_TagString
+      value: Player 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578746261711480, guid: 89064beb9c043d846bc88c4f99002683, type: 2}
+      propertyPath: m_TagString
+      value: Player 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114366391339667088, guid: 89064beb9c043d846bc88c4f99002683,
+        type: 2}
+      propertyPath: maxHealth
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114245761337192954, guid: 89064beb9c043d846bc88c4f99002683,
+        type: 2}
+      propertyPath: swordParent
+      value: 
+      objectReference: {fileID: 1451477915}
+    - target: {fileID: 114245761337192954, guid: 89064beb9c043d846bc88c4f99002683,
+        type: 2}
+      propertyPath: swordParentController
+      value: 
+      objectReference: {fileID: 1451477918}
+    - target: {fileID: 114534288459120214, guid: 89064beb9c043d846bc88c4f99002683,
+        type: 2}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 426441421}
+    - target: {fileID: 114366391339667088, guid: 89064beb9c043d846bc88c4f99002683,
+        type: 2}
+      propertyPath: swordParentController
+      value: 
+      objectReference: {fileID: 1451477918}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 89064beb9c043d846bc88c4f99002683, type: 2}
   m_IsPrefabParent: 0
