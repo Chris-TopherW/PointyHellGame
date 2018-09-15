@@ -20,14 +20,17 @@ public class SwordController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (animatorComponent.GetCurrentAnimatorStateInfo(0).IsName(IDLE))
         {
-            animatorComponent.Play(STAB);
-        }
+            if (Input.GetButtonDown("Fire1"))
+            {
+                animatorComponent.Play(STAB);
+            }
 
-        if (Input.GetButtonDown("Fire2"))
-        {
-            animatorComponent.Play(CHOP);
+            if (Input.GetButtonDown("Fire2"))
+            {
+                animatorComponent.Play(CHOP);
+            }
         }
     }
 }
