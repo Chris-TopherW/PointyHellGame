@@ -1,0 +1,1261 @@
+[LOG] System::create                           : Header version = 1.10.08. Current version = 1.10.08.
+[LOG] SystemI::setOutputInternal               : Setting output to 'FMOD Core Audio Output'
+[LOG] Manager::init                            : maxchannels = 1024 studioflags = 00000009 flags 00000000 extradriverdata 0x0.
+[LOG] SystemI::init                            : Initialize version=11008 (96768), maxchannels=1024, flags=0x00030000
+[LOG] OutputCoreAudio::enumerate               : Enumerating...
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "Built-in Output".
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "Soundflower (2ch)".
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "Soundflower (64ch)".
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "SoundflowerAndOuts".
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "inMicOutSpeaker".
+[LOG] OutputCoreAudio::enumerate               : Done.
+[LOG] OutputCoreAudio::init                    : Output running 2 channels at 48000Hz sample rate.
+[LOG] OutputCoreAudio::init                    : Maximum hardware read size: 1024 samples, Software buffer size: 512 samples, Number of software buffers: 4.
+[LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 65536, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 49152, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
+[LOG] AsyncManager::init                       : manager 0x115ad7808 isAsync 1 updatePeriod 0.02
+[LOG] Thread::initThread                       : Init FMOD Studio update thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] AsyncManager::init                       : done
+[LOG] PlaybackSystem::init                     : 
+[LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] PlaybackSystem::init                     : done
+[LOG] LiveUpdate::init                         : 
+[LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] Manager::init                            : done.
+[LOG] Profile::init                            : Profiler listening on port: 9264
+[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 100)
+[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 100)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000c64f7bc
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1417bff9f
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1417c005b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1417c008b
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1417c0128
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x1381dceb8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ALoopStart', format=2, channels=2, frequency=48000, lengthbytes=107488, lengthpcm=408189, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.812225.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000c64f7bc
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1417bff9f
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1417c005b
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1417c008b
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1417c0128
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x1381dceb8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ALoopCont', format=2, channels=2, frequency=48000, lengthbytes=108256, lengthpcm=408189, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.802460.
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] Thread::initThread                       : Init FMOD nonblocking thread (0). Priority: 1, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
+[LOG] SystemI::createSound                     : setdata soundi = 0x11543bcb8 : node = 0x11543be70
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x11543bcb8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x11543bf88
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyLeadIn', format=2, channels=2, frequency=48000, lengthbytes=7680, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.371887.
+[LOG] Thread::initThread                       :     Init FMOD file thread. Priority: 1, Stack Size: 16384, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x11543bcb8
+[LOG] SoundI::getSubSound                      : sound 0x11543bcb8.  Subsound index 0 / 1
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x10eba9f48 : node = 0x10eba4c10
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10eba9f48
+[LOG] SystemI::createSound                     : setdata soundi = 0x115447ee8 : node = 0x1382d05c0
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x10eba4d28
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyBBacking', format=2, channels=2, frequency=48000, lengthbytes=354496, lengthpcm=1360630, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.931610.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10eba9f48
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x115447ee8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1382d06d8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustMelodyB', format=2, channels=2, frequency=48000, lengthbytes=359232, lengthpcm=1360630, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.444519.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x115447ee8
+[LOG] SoundI::getSubSound                      : sound 0x10eba9f48.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0x115447ee8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : MelodyLeadIn (0x11543bcb8)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x11543c348)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x11543c4d8)
+[LOG] SoundI::release                          : JustMelodyB (0x115447ee8)
+[LOG] SoundI::release                          :     JustMelodyB (0x1381b4598)
+[LOG] SoundI::release                          :     JustMelodyB (0x1381b05f8)
+[LOG] SoundI::release                          : MelodyBBacking (0x10eba9f48)
+[LOG] SoundI::release                          :     MelodyBBacking (0x1381af938)
+[LOG] SoundI::release                          :     MelodyBBacking (0x1381b0038)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x1381e2648 : node = 0x1381af890
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1381e2648
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSound                     :     filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSound                     :     setdata soundi = 0x138280ac8 : node = 0x13828fc50
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1381af9a8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='VoxBacking', format=2, channels=2, frequency=48000, lengthbytes=422656, lengthpcm=1632756, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.682068.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1381e2648
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x138280ac8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13828fd68
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustVox', format=2, channels=2, frequency=48000, lengthbytes=212160, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.479675.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x138280ac8
+[LOG] SoundI::getSubSound                      : sound 0x1381e2648.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0x138280ac8.  Subsound index 0 / 1
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13a2efb58 : node = 0x13a2f33e0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13a2efb58
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13a2f34f8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustVox', format=2, channels=2, frequency=48000, lengthbytes=212160, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.479675.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13a2efb58
+[LOG] SoundI::getSubSound                      : sound 0x13a2efb58.  Subsound index 0 / 1
+[LOG] SoundI::release                          : JustVox (0x138280ac8)
+[LOG] SoundI::release                          :     JustVox (0x1381b0728)
+[LOG] SoundI::release                          :     JustVox (0x1381b08b8)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x138280ac8 : node = 0x13828fc50
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x138280ac8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13828fd68
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyLeadIn', format=2, channels=2, frequency=48000, lengthbytes=7680, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.371887.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x138280ac8
+[LOG] SoundI::getSubSound                      : sound 0x138280ac8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : JustVox (0x13a2efb58)
+[LOG] SoundI::release                          :     JustVox (0x1381b4598)
+[LOG] SoundI::release                          :     JustVox (0x1381b0068)
+[LOG] SoundI::release                          : VoxBacking (0x1381e2648)
+[LOG] SoundI::release                          :     VoxBacking (0x1382d7ea8)
+[LOG] SoundI::release                          :     VoxBacking (0x115437368)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x1381af7b8 : node = 0x1381d8130
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1381af7b8
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1381afe28 : node = 0x1381afb80
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1381d8248
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyBBacking', format=2, channels=2, frequency=48000, lengthbytes=354496, lengthpcm=1360630, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.931610.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1381af7b8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1381afe28
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1381afc98
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustMelodyB', format=2, channels=2, frequency=48000, lengthbytes=359232, lengthpcm=1360630, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.444519.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1381afe28
+[LOG] SoundI::getSubSound                      : sound 0x1381af7b8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0x1381afe28.  Subsound index 0 / 1
+[LOG] SoundI::release                          : MelodyLeadIn (0x138280ac8)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x1381b0d18)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x1381b0ea8)
+[LOG] SoundI::release                          : JustMelodyB (0x1381afe28)
+[LOG] SoundI::release                          :     JustMelodyB (0x1382f3fe8)
+[LOG] SoundI::release                          :     JustMelodyB (0x1382efd18)
+[LOG] SoundI::release                          : MelodyBBacking (0x1381af7b8)
+[LOG] SoundI::release                          :     MelodyBBacking (0x13a2ef7b8)
+[LOG] SoundI::release                          :     MelodyBBacking (0x13a2eff18)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13816f318 : node = 0x138187ea0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13816f318
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x138187fb8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyLeadIn', format=2, channels=2, frequency=48000, lengthbytes=7680, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.371887.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13816f318
+[LOG] SoundI::getSubSound                      : sound 0x13816f318.  Subsound index 0 / 1
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13a2ec2e8 : node = 0x13a2e9680
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13a2ec2e8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13a2e9798
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 8503
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyLeadIn', format=2, channels=2, frequency=48000, lengthbytes=7680, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.371887.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13a2ec2e8
+[LOG] SoundI::getSubSound                      : sound 0x13a2ec2e8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : MelodyLeadIn (0x13816f318)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x13a2e3cd8)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x13a2e3e68)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x14da8fe78 : node = 0x14da0a880
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x14da8fe78
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x14da0a998
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 8503
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyLeadIn', format=2, channels=2, frequency=48000, lengthbytes=7680, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.371887.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x14da8fe78
+[LOG] SoundI::getSubSound                      : sound 0x14da8fe78.  Subsound index 0 / 1
+[LOG] SoundI::release                          : MelodyLeadIn (0x13a2ec2e8)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x138164d08)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x138164e98)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13a2ec2e8 : node = 0x13a3b7710
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13a2ec2e8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13a3b7828
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 8503
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyLeadIn', format=2, channels=2, frequency=48000, lengthbytes=7680, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.371887.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13a2ec2e8
+[LOG] SoundI::getSubSound                      : sound 0x13a2ec2e8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : MelodyLeadIn (0x14da8fe78)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x1382cd808)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x153d9d978)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x14da8fe78 : node = 0x14da90030
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x14da8fe78
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x14da90148
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 8503
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyLeadIn', format=2, channels=2, frequency=48000, lengthbytes=7680, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.371887.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x14da8fe78
+[LOG] SoundI::getSubSound                      : sound 0x14da8fe78.  Subsound index 0 / 1
+[LOG] SoundI::release                          : MelodyLeadIn (0x13a2ec2e8)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x1382594b8)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x138259648)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13a2ec2e8 : node = 0x13a2e3ae0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13a2ec2e8
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSound                     :     setdata soundi = 0x138167df8 : node = 0x1381649e0
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13a2e3bf8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyBBacking', format=2, channels=2, frequency=48000, lengthbytes=354496, lengthpcm=1360630, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.931610.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13a2ec2e8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x138167df8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x138164af8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustMelodyB', format=2, channels=2, frequency=48000, lengthbytes=359232, lengthpcm=1360630, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.444519.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x138167df8
+[LOG] SoundI::getSubSound                      : sound 0x13a2ec2e8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0x138167df8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : MelodyLeadIn (0x14da8fe78)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x1381a3e68)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x138167c58)
+[LOG] SoundI::release                          : JustMelodyB (0x138167df8)
+[LOG] SoundI::release                          :     JustMelodyB (0x1382596c8)
+[LOG] SoundI::release                          :     JustMelodyB (0x138259858)
+[LOG] SoundI::release                          : MelodyBBacking (0x13a2ec2e8)
+[LOG] SoundI::release                          :     MelodyBBacking (0x13829ba88)
+[LOG] SoundI::release                          :     MelodyBBacking (0x13825b398)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x1382cd808 : node = 0x13829b6e0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1382cd808
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1381861f8 : node = 0x138187c60
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13829b7f8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='VoxBacking', format=2, channels=2, frequency=48000, lengthbytes=422656, lengthpcm=1632756, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.682068.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1382cd808
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1381861f8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x138187d78
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustVox', format=2, channels=2, frequency=48000, lengthbytes=212160, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.479675.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1381861f8
+[LOG] SoundI::getSubSound                      : sound 0x1382cd808.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0x1381861f8.  Subsound index 0 / 1
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x14da8fa58 : node = 0x14da88240
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x14da8fa58
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x14da88358
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustVox', format=2, channels=2, frequency=48000, lengthbytes=212160, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.479675.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x14da8fa58
+[LOG] SoundI::getSubSound                      : sound 0x14da8fa58.  Subsound index 0 / 1
+[LOG] SoundI::release                          : JustVox (0x1381861f8)
+[LOG] SoundI::release                          :     JustVox (0x14da8fee8)
+[LOG] SoundI::release                          :     JustVox (0x14da90078)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x14da1c688 : node = 0x14da90030
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x14da1c688
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x14da90148
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyLeadIn', format=2, channels=2, frequency=48000, lengthbytes=7680, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.371887.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x14da1c688
+[LOG] SoundI::getSubSound                      : sound 0x14da1c688.  Subsound index 0 / 1
+[LOG] SoundI::release                          : JustVox (0x14da8fa58)
+[LOG] SoundI::release                          :     JustVox (0x14da90f08)
+[LOG] SoundI::release                          :     JustVox (0x14da91098)
+[LOG] SoundI::release                          : VoxBacking (0x1382cd808)
+[LOG] SoundI::release                          :     VoxBacking (0x13825b4d8)
+[LOG] SoundI::release                          :     VoxBacking (0x13825b668)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13825a0e8 : node = 0x13829b6e0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13825a0e8
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSound                     :     setdata soundi = 0x13825e398 : node = 0x1382c1210
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13829b7f8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyBBacking', format=2, channels=2, frequency=48000, lengthbytes=354496, lengthpcm=1360630, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.931610.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13825a0e8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13825e398
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1382c1328
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustMelodyB', format=2, channels=2, frequency=48000, lengthbytes=359232, lengthpcm=1360630, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.444519.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13825e398
+[LOG] SoundI::getSubSound                      : sound 0x13825a0e8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0x13825e398.  Subsound index 0 / 1
+[LOG] SoundI::release                          : MelodyLeadIn (0x14da1c688)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x1382c1068)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x138259f48)
+[LOG] SoundI::release                          : JustMelodyB (0x13825e398)
+[LOG] SoundI::release                          :     JustMelodyB (0x138160668)
+[LOG] SoundI::release                          :     JustMelodyB (0x1381607f8)
+[LOG] SoundI::release                          : MelodyBBacking (0x13825a0e8)
+[LOG] SoundI::release                          :     MelodyBBacking (0x13815e438)
+[LOG] SoundI::release                          :     MelodyBBacking (0x13817e8e8)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13817e9d8 : node = 0x13815e450
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13817eb78 : node = 0x1381604d0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13817e9d8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13815e568
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='VoxBacking', format=2, channels=2, frequency=48000, lengthbytes=422656, lengthpcm=1632756, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.682068.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13817e9d8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13817eb78
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1381605e8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustVox', format=2, channels=2, frequency=48000, lengthbytes=212160, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.479675.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13817eb78
+[LOG] SoundI::getSubSound                      : sound 0x13817e9d8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0x13817eb78.  Subsound index 0 / 1
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x1381605f8 : node = 0x138187c60
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1381605f8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x138187d78
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustVox', format=2, channels=2, frequency=48000, lengthbytes=212160, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.479675.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1381605f8
+[LOG] SoundI::getSubSound                      : sound 0x1381605f8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : JustVox (0x13817eb78)
+[LOG] SoundI::release                          :     JustVox (0x13825a0f8)
+[LOG] SoundI::release                          :     JustVox (0x13825b328)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13a2ec2e8 : node = 0x150ddd8a0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13a2ec2e8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x150ddd9b8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyLeadIn', format=2, channels=2, frequency=48000, lengthbytes=7680, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.371887.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13a2ec2e8
+[LOG] SoundI::getSubSound                      : sound 0x13a2ec2e8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : JustVox (0x1381605f8)
+[LOG] SoundI::release                          :     JustVox (0x1382594b8)
+[LOG] SoundI::release                          :     JustVox (0x138259648)
+[LOG] SoundI::release                          : VoxBacking (0x13817e9d8)
+[LOG] SoundI::release                          :     VoxBacking (0x153da39a8)
+[LOG] SoundI::release                          :     VoxBacking (0x1382c1068)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13a2e2d28 : node = 0x13a2e2ee0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13a2e2d28
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1382cd808 : node = 0x115453750
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13a2e2ff8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyBBacking', format=2, channels=2, frequency=48000, lengthbytes=354496, lengthpcm=1360630, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.931610.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13a2e2d28
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1382cd808
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x115453868
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustMelodyB', format=2, channels=2, frequency=48000, lengthbytes=359232, lengthpcm=1360630, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.444519.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1382cd808
+[LOG] SoundI::getSubSound                      : sound 0x13a2e2d28.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0x1382cd808.  Subsound index 0 / 1
+[LOG] SoundI::release                          : MelodyLeadIn (0x13a2ec2e8)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x13825a0f8)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x13829b8d8)
+[LOG] SoundI::release                          : JustMelodyB (0x1382cd808)
+[LOG] SoundI::release                          :     JustMelodyB (0x1382596c8)
+[LOG] SoundI::release                          :     JustMelodyB (0x138259858)
+[LOG] SoundI::release                          : MelodyBBacking (0x13a2e2d28)
+[LOG] SoundI::release                          :     MelodyBBacking (0x14da90198)
+[LOG] SoundI::release                          :     MelodyBBacking (0x14da91258)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13a2d4a48 : node = 0x13a2d4c00
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13a2d4a48
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1382410a8 : node = 0x1382d4de0
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13a2d4d18
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='VoxBacking', format=2, channels=2, frequency=48000, lengthbytes=422656, lengthpcm=1632756, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.682068.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13a2d4a48
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1382410a8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1382d4ef8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustVox', format=2, channels=2, frequency=48000, lengthbytes=212160, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.479675.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1382410a8
+[LOG] SoundI::getSubSound                      : sound 0x13a2d4a48.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0x1382410a8.  Subsound index 0 / 1
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13a2ec2e8 : node = 0x13a2d2180
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13a2ec2e8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13a2d2298
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustVox', format=2, channels=2, frequency=48000, lengthbytes=212160, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.479675.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13a2ec2e8
+[LOG] SoundI::getSubSound                      : sound 0x13a2ec2e8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : JustVox (0x1382410a8)
+[LOG] SoundI::release                          :     JustVox (0x13824ad38)
+[LOG] SoundI::release                          :     JustVox (0x13823aa38)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x10eb6e098 : node = 0x14da965a0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10eb6e098
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x14da966b8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyLeadIn', format=2, channels=2, frequency=48000, lengthbytes=7680, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.371887.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10eb6e098
+[LOG] SoundI::getSubSound                      : sound 0x10eb6e098.  Subsound index 0 / 1
+[LOG] SoundI::release                          : JustVox (0x13a2ec2e8)
+[LOG] SoundI::release                          :     JustVox (0x14daa5628)
+[LOG] SoundI::release                          :     JustVox (0x10ebeb0e8)
+[LOG] SoundI::release                          : VoxBacking (0x13a2d4a48)
+[LOG] SoundI::release                          :     VoxBacking (0x13824a648)
+[LOG] SoundI::release                          :     VoxBacking (0x13824a7d8)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x10ebeb0e8 : node = 0x14daa5640
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10ebeb0e8
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1348e2868 : node = 0x1381615f0
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x14daa5758
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyBBacking', format=2, channels=2, frequency=48000, lengthbytes=354496, lengthpcm=1360630, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.931610.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10ebeb0e8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1348e2868
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x138161708
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustMelodyB', format=2, channels=2, frequency=48000, lengthbytes=359232, lengthpcm=1360630, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.444519.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1348e2868
+[LOG] SoundI::getSubSound                      : sound 0x10ebeb0e8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0x1348e2868.  Subsound index 0 / 1
+[LOG] SoundI::release                          : MelodyLeadIn (0x10eb6e098)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x13823aa38)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x13823abc8)
+[LOG] SoundI::release                          : JustMelodyB (0x1348e2868)
+[LOG] SoundI::release                          :     JustMelodyB (0x13823d0e8)
+[LOG] SoundI::release                          :     JustMelodyB (0x13823d278)
+[LOG] SoundI::release                          : MelodyBBacking (0x10ebeb0e8)
+[LOG] SoundI::release                          :     MelodyBBacking (0x138252188)
+[LOG] SoundI::release                          :     MelodyBBacking (0x13823c908)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13a2ec2e8 : node = 0x13a2d4a70
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13a2ec2e8
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1382410a8 : node = 0x1382d4de0
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13a2d4b88
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='VoxBacking', format=2, channels=2, frequency=48000, lengthbytes=422656, lengthpcm=1632756, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.682068.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13a2ec2e8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1382410a8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1382d4ef8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustVox', format=2, channels=2, frequency=48000, lengthbytes=212160, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.479675.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1382410a8
+[LOG] SoundI::getSubSound                      : sound 0x13a2ec2e8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0x1382410a8.  Subsound index 0 / 1
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x10ebeb0e8 : node = 0x14da965a0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10ebeb0e8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x14da966b8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustVox', format=2, channels=2, frequency=48000, lengthbytes=212160, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.479675.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10ebeb0e8
+[LOG] SoundI::getSubSound                      : sound 0x10ebeb0e8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : JustVox (0x1382410a8)
+[LOG] SoundI::release                          :     JustVox (0x138132498)
+[LOG] SoundI::release                          :     JustVox (0x138132628)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13a2d3588 : node = 0x13a2d3740
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13a2d3588
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13a2d3858
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyLeadIn', format=2, channels=2, frequency=48000, lengthbytes=7680, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.371887.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13a2d3588
+[LOG] SoundI::getSubSound                      : sound 0x13a2d3588.  Subsound index 0 / 1
+[LOG] SoundI::release                          : JustVox (0x10ebeb0e8)
+[LOG] SoundI::release                          :     JustVox (0x138252188)
+[LOG] SoundI::release                          :     JustVox (0x138237b08)
+[LOG] SoundI::release                          : VoxBacking (0x13a2ec2e8)
+[LOG] SoundI::release                          :     VoxBacking (0x1381314f8)
+[LOG] SoundI::release                          :     VoxBacking (0x138131688)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13812e468 : node = 0x1381615f0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13812e468
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1348e2868 : node = 0x138187ea0
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x138161708
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyBBacking', format=2, channels=2, frequency=48000, lengthbytes=354496, lengthpcm=1360630, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.931610.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13812e468
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1348e2868
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x138187fb8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustMelodyB', format=2, channels=2, frequency=48000, lengthbytes=359232, lengthpcm=1360630, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.444519.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1348e2868
+[LOG] SoundI::getSubSound                      : sound 0x13812e468.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0x1348e2868.  Subsound index 0 / 1
+[LOG] SoundI::release                          : MelodyLeadIn (0x13a2d3588)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x1381a3e68)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x1381320d8)
+[LOG] SoundI::release                          : JustMelodyB (0x1348e2868)
+[LOG] SoundI::release                          :     JustMelodyB (0x13a2d4848)
+[LOG] SoundI::release                          :     JustMelodyB (0x13a2d49d8)
+[LOG] SoundI::release                          : MelodyBBacking (0x13812e468)
+[LOG] SoundI::release                          :     MelodyBBacking (0x1155629f8)
+[LOG] SoundI::release                          :     MelodyBBacking (0x13824aaa8)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x10ebeb0e8 : node = 0x14daa5640
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10ebeb0e8
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1348e2868 : node = 0x1381615f0
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x14daa5758
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='VoxBacking', format=2, channels=2, frequency=48000, lengthbytes=422656, lengthpcm=1632756, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.682068.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10ebeb0e8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1348e2868
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x138161708
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustVox', format=2, channels=2, frequency=48000, lengthbytes=212160, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.479675.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1348e2868
+[LOG] SoundI::getSubSound                      : sound 0x10ebeb0e8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0x1348e2868.  Subsound index 0 / 1
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x1381330d8 : node = 0x138150eb0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1381330d8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x138150fc8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustVox', format=2, channels=2, frequency=48000, lengthbytes=212160, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.479675.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1381330d8
+[LOG] SoundI::getSubSound                      : sound 0x1381330d8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : JustVox (0x1348e2868)
+[LOG] SoundI::release                          :     JustVox (0x13812e378)
+[LOG] SoundI::release                          :     JustVox (0x13812e508)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x138150c98 : node = 0x1381615f0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x138150c98
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x138161708
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyLeadIn', format=2, channels=2, frequency=48000, lengthbytes=7680, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.371887.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x138150c98
+[LOG] SoundI::getSubSound                      : sound 0x138150c98.  Subsound index 0 / 1
+[LOG] SoundI::release                          : JustVox (0x1381330d8)
+[LOG] SoundI::release                          :     JustVox (0x138133848)
+[LOG] SoundI::release                          :     JustVox (0x1381339d8)
+[LOG] SoundI::release                          : VoxBacking (0x10ebeb0e8)
+[LOG] SoundI::release                          :     VoxBacking (0x13815e438)
+[LOG] SoundI::release                          :     VoxBacking (0x1381314f8)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13823d138 : node = 0x13823cee0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13823d138
+[LOG] SystemI::createSound                     : setdata soundi = 0x13823b878 : node = 0x138252540
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13823cff8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyBBacking', format=2, channels=2, frequency=48000, lengthbytes=354496, lengthpcm=1360630, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.931610.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13823d138
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13823b878
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x138252658
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustMelodyB', format=2, channels=2, frequency=48000, lengthbytes=359232, lengthpcm=1360630, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.444519.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13823b878
+[LOG] SoundI::getSubSound                      : sound 0x13823d138.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0x13823b878.  Subsound index 0 / 1
+[LOG] SoundI::release                          : MelodyLeadIn (0x138150c98)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x138237e38)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x13823cd28)
+[LOG] SoundI::release                          : JustMelodyB (0x13823b878)
+[LOG] SoundI::release                          :     JustMelodyB (0x138132918)
+[LOG] SoundI::release                          :     JustMelodyB (0x138132aa8)
+[LOG] SoundI::release                          : MelodyBBacking (0x13823d138)
+[LOG] SoundI::release                          :     MelodyBBacking (0x1381a3e68)
+[LOG] SoundI::release                          :     MelodyBBacking (0x13815c3b8)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13823abb8 : node = 0x13823d150
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13823abb8
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     setdata soundi = 0x13823baf8 : node = 0x13823bcb0
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13823d268
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='VoxBacking', format=2, channels=2, frequency=48000, lengthbytes=422656, lengthpcm=1632756, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.682068.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13823abb8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13823baf8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13823bdc8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustVox', format=2, channels=2, frequency=48000, lengthbytes=212160, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.479675.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13823baf8
+[LOG] SoundI::getSubSound                      : sound 0x13823abb8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0x13823baf8.  Subsound index 0 / 1
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13a2d3258 : node = 0x13a2d2e00
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13a2d3258
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13a2d2f18
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustVox', format=2, channels=2, frequency=48000, lengthbytes=212160, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.479675.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13a2d3258
+[LOG] SoundI::getSubSound                      : sound 0x13a2d3258.  Subsound index 0 / 1
+[LOG] SoundI::release                          : JustVox (0x13823baf8)
+[LOG] SoundI::release                          :     JustVox (0x13a2d26c8)
+[LOG] SoundI::release                          :     JustVox (0x13a2d2858)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x10eb6e238 : node = 0x14da10820
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10eb6e238
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x14da10938
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyLeadIn', format=2, channels=2, frequency=48000, lengthbytes=7680, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.371887.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10eb6e238
+[LOG] SoundI::getSubSound                      : sound 0x10eb6e238.  Subsound index 0 / 1
+[LOG] SoundI::release                          : JustVox (0x13a2d3258)
+[LOG] SoundI::release                          :     JustVox (0x138240b38)
+[LOG] SoundI::release                          :     JustVox (0x13823cd28)
+[LOG] SoundI::release                          : VoxBacking (0x13823abb8)
+[LOG] SoundI::release                          :     VoxBacking (0x13a2d4db8)
+[LOG] SoundI::release                          :     VoxBacking (0x13a2d1f58)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13823abb8 : node = 0x13823b740
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13823abb8
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1381861f8 : node = 0x1381615f0
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13823b858
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyBBacking', format=2, channels=2, frequency=48000, lengthbytes=354496, lengthpcm=1360630, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.931610.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13823abb8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1381861f8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x138161708
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustMelodyB', format=2, channels=2, frequency=48000, lengthbytes=359232, lengthpcm=1360630, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.444519.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1381861f8
+[LOG] SoundI::getSubSound                      : sound 0x13823abb8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0x1381861f8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : MelodyLeadIn (0x10eb6e238)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x13823bef8)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x13823c088)
+[LOG] SoundI::release                          : JustMelodyB (0x1381861f8)
+[LOG] SoundI::release                          :     JustMelodyB (0x13a2d1f58)
+[LOG] SoundI::release                          :     JustMelodyB (0x13a2d20e8)
+[LOG] SoundI::release                          : MelodyBBacking (0x13823abb8)
+[LOG] SoundI::release                          :     MelodyBBacking (0x138150c98)
+[LOG] SoundI::release                          :     MelodyBBacking (0x138150e28)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x10eb6e238 : node = 0x14da10820
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10eb6e238
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSound                     :     setdata soundi = 0x138237e78 : node = 0x13823d7b0
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x14da10938
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='VoxBacking', format=2, channels=2, frequency=48000, lengthbytes=422656, lengthpcm=1632756, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.682068.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10eb6e238
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x138237e78
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13823d8c8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustVox', format=2, channels=2, frequency=48000, lengthbytes=212160, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.479675.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x138237e78
+[LOG] SoundI::getSubSound                      : sound 0x10eb6e238.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0x138237e78.  Subsound index 0 / 1
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x1381861f8 : node = 0x1381615f0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1381861f8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x138161708
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustVox', format=2, channels=2, frequency=48000, lengthbytes=212160, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.479675.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1381861f8
+[LOG] SoundI::getSubSound                      : sound 0x1381861f8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : JustVox (0x138237e78)
+[LOG] SoundI::release                          :     JustVox (0x138131038)
+[LOG] SoundI::release                          :     JustVox (0x1381322d8)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x1381322d8 : node = 0x138187c60
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1381322d8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x138187d78
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyLeadIn', format=2, channels=2, frequency=48000, lengthbytes=7680, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.371887.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1381322d8
+[LOG] SoundI::getSubSound                      : sound 0x1381322d8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : JustVox (0x1381861f8)
+[LOG] SoundI::release                          :     JustVox (0x13823b638)
+[LOG] SoundI::release                          :     JustVox (0x13823b7c8)
+[LOG] SoundI::release                          : VoxBacking (0x10eb6e238)
+[LOG] SoundI::release                          :     VoxBacking (0x1381317f8)
+[LOG] SoundI::release                          :     VoxBacking (0x13812e3a8)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13a2ec2e8 : node = 0x13a2d4a70
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13a2ec2e8
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSound                     :     setdata soundi = 0x13823abb8 : node = 0x138252540
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13a2d4b88
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MelodyBBacking', format=2, channels=2, frequency=48000, lengthbytes=354496, lengthpcm=1360630, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.931610.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13a2ec2e8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13823abb8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x138252658
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustMelodyB', format=2, channels=2, frequency=48000, lengthbytes=359232, lengthpcm=1360630, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.444519.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13823abb8
+[LOG] SoundI::getSubSound                      : sound 0x13a2ec2e8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0x13823abb8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : MelodyLeadIn (0x1381322d8)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x1155629f8)
+[LOG] SoundI::release                          :     MelodyLeadIn (0x13823bc68)
+[LOG] SoundI::release                          : JustMelodyB (0x13823abb8)
+[LOG] SoundI::release                          :     JustMelodyB (0x138132688)
+[LOG] SoundI::release                          :     JustMelodyB (0x138132818)
+[LOG] SoundI::release                          : MelodyBBacking (0x13a2ec2e8)
+[LOG] SoundI::release                          :     MelodyBBacking (0x13815e438)
+[LOG] SoundI::release                          :     MelodyBBacking (0x13812e378)
+[LOG] SystemI::createSound                     : filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x10eb6e238 : node = 0x14da10820
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10eb6e238
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSound                     :     filename = FMOD/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x14da10938
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1381861f8 : node = 0x1381615f0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11543c0e8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='VoxBacking', format=2, channels=2, frequency=48000, lengthbytes=422656, lengthpcm=1632756, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.682068.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10eb6e238
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1381861f8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1698560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26848
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x138161708
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='JustVox', format=2, channels=2, frequency=48000, lengthbytes=212160, lengthpcm=816377, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.479675.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1381861f8
+[LOG] SoundI::getSubSound                      : sound 0x10eb6e238.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0x1381861f8.  Subsound index 0 / 1
