@@ -51,7 +51,7 @@ public class GameController : MonoBehaviour {
             playerController2.gameObject.SetActive(false);
 
             winnerText.text = winner + " WINS!";
-            winnerText.color = winner == "Player 2" ? Color.blue : Color.red;
+            winnerText.color = winner == "Player 1" ? Color.blue : Color.red;
 
             playText.gameObject.SetActive(true);
             winnerText.gameObject.SetActive(true);

@@ -8,17 +8,18 @@ public class PlayerController : MonoBehaviour {
     public SwordParentController swordParentController;
     public int maxHealth = 100;
     public Text healthText;
+    public GameObject start;
 
     private int health;
 
     private Vector3 initialPosition;
-    private Quaternion initialRotation;
+    private Vector3 initialRotation;
 
     void Start () {
         health = maxHealth;
 
-        initialPosition = transform.position;
-        initialRotation = transform.rotation;
+        initialPosition = start.transform.position;
+        initialRotation = start.transform.eulerAngles;
     }
 	
 	void Update () {
@@ -52,6 +53,6 @@ public class PlayerController : MonoBehaviour {
     {
         health = maxHealth;
         transform.position = initialPosition;
-        transform.rotation = initialRotation;
+        transform.eulerAngles = initialRotation;
     }
 }
