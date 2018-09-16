@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{06b8f54b-0843-4244-8bf6-a2d24ba7436c}">
+        <property name="assetPath">
+            <value>SoundDesign/Squech/Squech_2.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>1.0366439909297052</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{2dc9c448-2aee-412f-ba76-fc0c8eaf1f55}</destination>
+        </relationship>
+    </object>
+</objects>
