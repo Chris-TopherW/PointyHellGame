@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour {
 
         if (healthText != null)
         {
-            healthText.text = health + " hp remaining";
+            healthText.text = health + " HP remaining";
         }
     }
 

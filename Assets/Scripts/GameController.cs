@@ -5,11 +5,14 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour {
 
-    public Text playText;
-    public Text winnerText;
+    public GameObject playText;
 
     public PlayerController playerController1;
     public PlayerController playerController2;
+
+    public GameObject gameUI;
+    public GameObject p1Win;
+    public GameObject p2Win;
 
     private const string SPLASH_SCREEN = "SPLASH_SCREEN";
     private const string IN_GAME = "IN_GAME";
@@ -29,32 +32,46 @@ public class GameController : MonoBehaviour {
         if (state == SPLASH_SCREEN)
         {
             playText.gameObject.SetActive(true);
-            winnerText.gameObject.SetActive(false);
+            p1Win.gameObject.SetActive(false);
+            p2Win.gameObject.SetActive(false);
 
             playerController1.gameObject.SetActive(false);
             playerController2.gameObject.SetActive(false);
+
+            gameUI.SetActive(false);
         }
         else if (state == IN_GAME)
         {
             playText.gameObject.SetActive(false);
-            winnerText.gameObject.SetActive(false);
+            p1Win.gameObject.SetActive(false);
+            p2Win.gameObject.SetActive(false);
 
             playerController1.Reset();
             playerController2.Reset();
 
             playerController1.gameObject.SetActive(true);
             playerController2.gameObject.SetActive(true);
+
+            gameUI.SetActive(true);
         }
         else if (state == GAME_OVER)
         {
             playerController1.gameObject.SetActive(false);
             playerController2.gameObject.SetActive(false);
 
-            winnerText.text = winner + " WINS!";
-            winnerText.color = winner == "Player 1" ? Color.blue : Color.red;
+            if (winner == "Player 1")
+            {
+                p1Win.gameObject.SetActive(true);
+                p2Win.gameObject.SetActive(false);
+            }
+            else {
+                p1Win.gameObject.SetActive(false);
+                p2Win.gameObject.SetActive(true);
+            }
 
-            playText.gameObject.SetActive(true);
-            winnerText.gameObject.SetActive(true);
+            playText.gameObject.SetActive(false);
+
+            gameUI.SetActive(false);
         }
     }
 
@@ -67,6 +84,7 @@ public class GameController : MonoBehaviour {
                 state = IN_GAME;
 
                 UpdateGameState();
+
             }
         }
         else if (state == IN_GAME)

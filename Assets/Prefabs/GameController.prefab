@@ -52,6 +52,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playText: {fileID: 0}
-  winnerText: {fileID: 0}
   playerController1: {fileID: 0}
   playerController2: {fileID: 0}
+  gameUI: {fileID: 0}
+  p1Win: {fileID: 0}
+  p2Win: {fileID: 0}
