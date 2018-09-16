@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{1c1fef71-e6e2-4f39-a66f-ee3b6f79ad00}">
+        <property name="assetPath">
+            <value>SoundDesign/Footsteps/FootstepsWoodHeavy-005.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>1.5192291666666666</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{2dc9c448-2aee-412f-ba76-fc0c8eaf1f55}</destination>
+        </relationship>
+    </object>
+</objects>
