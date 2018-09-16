@@ -79,7 +79,7 @@ public class GameController : MonoBehaviour {
     {
         if (state == SPLASH_SCREEN || state == GAME_OVER)
         {
-            if (Input.GetButtonDown("Jump"))
+            if (Input.GetButtonDown("Jump") || Input.GetButtonDown("Player 1 Jump") || Input.GetButtonDown("Player 2 Jump"))
             {
                 state = IN_GAME;
 

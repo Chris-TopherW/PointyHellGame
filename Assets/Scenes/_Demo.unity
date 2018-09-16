@@ -1319,7 +1319,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.42647058, g: 0.42647058, b: 0.42647058, a: 0.019607844}
+  m_BackGroundColor: {r: 0, g: 0.06666667, b: 0.17254902, a: 0.019607844}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -2015,12 +2015,27 @@ Prefab:
         type: 2}
       propertyPath: playText
       value: 
-      objectReference: {fileID: 580282291}
+      objectReference: {fileID: 1759195439}
     - target: {fileID: 114868401790589594, guid: 26509c2bd77484e8a896ace39ef33447,
         type: 2}
       propertyPath: winnerText
       value: 
-      objectReference: {fileID: 1279816245}
+      objectReference: {fileID: 0}
+    - target: {fileID: 114868401790589594, guid: 26509c2bd77484e8a896ace39ef33447,
+        type: 2}
+      propertyPath: gameUI
+      value: 
+      objectReference: {fileID: 1763025542}
+    - target: {fileID: 114868401790589594, guid: 26509c2bd77484e8a896ace39ef33447,
+        type: 2}
+      propertyPath: p1Win
+      value: 
+      objectReference: {fileID: 1744485668}
+    - target: {fileID: 114868401790589594, guid: 26509c2bd77484e8a896ace39ef33447,
+        type: 2}
+      propertyPath: p2Win
+      value: 
+      objectReference: {fileID: 1723024961}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26509c2bd77484e8a896ace39ef33447, type: 2}
   m_IsPrefabAsset: 0
@@ -2221,6 +2236,21 @@ Prefab:
       propertyPath: start
       value: 
       objectReference: {fileID: 493473254}
+    - target: {fileID: 20960399540589096, guid: ccef34343f1be420680b144f82df328c,
+        type: 2}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20960399540589096, guid: ccef34343f1be420680b144f82df328c,
+        type: 2}
+      propertyPath: m_BackGroundColor.g
+      value: 0.06666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 20960399540589096, guid: ccef34343f1be420680b144f82df328c,
+        type: 2}
+      propertyPath: m_BackGroundColor.b
+      value: 0.17254902
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 81668877226018122, guid: ccef34343f1be420680b144f82df328c, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: ccef34343f1be420680b144f82df328c, type: 2}
@@ -3264,12 +3294,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &580282291 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114041257904881642, guid: 63a20cc269f0c4cb78dbcabf27762109,
-    type: 2}
-  m_PrefabInternal: {fileID: 143715648}
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &590789273 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 189238, guid: 60f4e128a89ee4a4f819677a974d462c,
@@ -6770,12 +6794,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 407960, guid: 26a51d653bd7111429b1afe89194a707,
     type: 2}
   m_PrefabInternal: {fileID: 1277765286}
---- !u!114 &1279816245 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114789373811609000, guid: 63a20cc269f0c4cb78dbcabf27762109,
-    type: 2}
-  m_PrefabInternal: {fileID: 143715648}
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1001 &1288336758
 Prefab:
   m_ObjectHideFlags: 0
@@ -9231,9 +9249,29 @@ Prefab:
       propertyPath: start
       value: 
       objectReference: {fileID: 1431148551}
+    - target: {fileID: 20253551231352334, guid: 4bbdd07f76faa4a06a2a883afd7df7de,
+        type: 2}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20253551231352334, guid: 4bbdd07f76faa4a06a2a883afd7df7de,
+        type: 2}
+      propertyPath: m_BackGroundColor.g
+      value: 0.06603772
+      objectReference: {fileID: 0}
+    - target: {fileID: 20253551231352334, guid: 4bbdd07f76faa4a06a2a883afd7df7de,
+        type: 2}
+      propertyPath: m_BackGroundColor.b
+      value: 0.16981131
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bbdd07f76faa4a06a2a883afd7df7de, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1723024961 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1267931702060078, guid: 63a20cc269f0c4cb78dbcabf27762109,
+    type: 2}
+  m_PrefabInternal: {fileID: 143715648}
 --- !u!1001 &1724060461
 Prefab:
   m_ObjectHideFlags: 0
@@ -9347,6 +9385,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5, y: 4.6851273, z: 0.088493586}
   m_Center: {x: -2.5, y: 2.0719004, z: 0.010628104}
+--- !u!1 &1744485668 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1328548238739800, guid: 63a20cc269f0c4cb78dbcabf27762109,
+    type: 2}
+  m_PrefabInternal: {fileID: 143715648}
 --- !u!1001 &1756089051
 Prefab:
   m_ObjectHideFlags: 0
@@ -9398,6 +9441,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 453958, guid: 60f4e128a89ee4a4f819677a974d462c,
     type: 2}
   m_PrefabInternal: {fileID: 1756089051}
+--- !u!1 &1759195439 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1151032525309162, guid: 63a20cc269f0c4cb78dbcabf27762109,
+    type: 2}
+  m_PrefabInternal: {fileID: 143715648}
 --- !u!1 &1759849595 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 193654, guid: 48904ac029cf0f8478666c43b7e018b3,
@@ -9521,6 +9569,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 17e39953412d1ac4a86758cc8c8a19af,
     type: 3}
   m_PrefabInternal: {fileID: 1761248057}
+--- !u!1 &1763025542 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1363120079332014, guid: 63a20cc269f0c4cb78dbcabf27762109,
+    type: 2}
+  m_PrefabInternal: {fileID: 143715648}
 --- !u!1001 &1763049309
 Prefab:
   m_ObjectHideFlags: 0
