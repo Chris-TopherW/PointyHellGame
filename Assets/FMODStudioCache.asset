@@ -23,9 +23,10 @@ MonoBehaviour:
   - {fileID: 114076430284782102}
   - {fileID: 114914084338041004}
   - {fileID: 114990258940085062}
+  - {fileID: 114966087413113558}
   MasterBankRef: {fileID: 114952861480338106}
   StringsBankRef: {fileID: 114454513221340716}
-  stringsBankWriteTime: 636727047680000000
+  stringsBankWriteTime: 636727076510000000
   cacheVersion: 2
 --- !u!114 &114076430284782102
 MonoBehaviour:
@@ -46,7 +47,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 114768255700765418}
+  - {fileID: 114619964810451358}
   MinDistance: 0
   MaxDistance: 0
   Length: 102047
@@ -106,12 +107,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: PointySong/Build/Desktop/Master Bank.strings.bank
-  lastModified: 636727047680000000
+  lastModified: 636727076510000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1022
+    Value: 1060
   Exists: 1
+--- !u!114 &114619964810451358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Section
+  Min: 1
+  Max: 4
+  Default: 1
 --- !u!114 &114768255700765418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -228,12 +244,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: /Users/chriswratt/Documents/Unity/PointyHellGame/PointySong/Build/Desktop/Master
     Bank.bank
-  lastModified: 636727047680000000
+  lastModified: 636727076510000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1733312
+    Value: 4897760
   Exists: 1
+--- !u!114 &114966087413113558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience
+  guid: f1ff77a9c8938949975ff7298e4c3de9
+  Banks:
+  - {fileID: 114952861480338106}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 245838
 --- !u!114 &114990258940085062
 MonoBehaviour:
   m_ObjectHideFlags: 0
