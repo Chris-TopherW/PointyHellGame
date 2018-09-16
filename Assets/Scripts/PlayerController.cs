@@ -43,13 +43,9 @@ public class PlayerController : MonoBehaviour {
         return health <= 0;
     }
 
-    public void Hit(int damage, Vector3 direction)
+    public void Hit(int damage)
     {
         health = Mathf.Max(health - damage, 0);
-
-        // Doesn't work becuase the rigidbody has to be kinematic :(
-        //Rigidbody rb = GetComponent<Rigidbody>();
-        //rb.AddForce(direction * 100, ForceMode.Impulse);
     }
 
     public void Reset()
