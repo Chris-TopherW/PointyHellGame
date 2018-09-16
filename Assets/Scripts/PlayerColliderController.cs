@@ -12,7 +12,8 @@ public class PlayerColliderController : MonoBehaviour {
 
         if (other.name == "Sword" && other.tag != tag && !other.GetComponent<SwordController>().ParentIdle())
         {
-            playerController.Hit(other.GetComponent<SwordController>().damage);
+            Vector3 direction = (transform.position - other.transform.position).normalized;
+            playerController.Hit(other.GetComponent<SwordController>().damage, direction);
         }
     }
 }
