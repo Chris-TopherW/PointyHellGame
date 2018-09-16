@@ -1,0 +1,11 @@
+{219d06b9-4c9e-449f-8388-70e864e7a7a5} event:/Footsteps
+{e156db73-7000-4fed-a50a-f17ec9f3a20a} event:/GruntsDeep
+{4c6b128b-6204-44be-9628-0688d25d2316} event:/GruntsHigh
+{9e2aa3a1-12da-4f44-a747-5a261a753f81} event:/MainSong
+{0f20a8b9-6190-4340-bc30-908ac1d07ad3} event:/Squelch
+{293c4e15-3ac3-4351-a2dd-d83db09406cb} event:/UIEnter
+{adc75680-8f0c-4c59-a11b-b034871d6a1b} event:/UISelect
+{02a35448-3bb1-42e3-b6c6-42c10b5a5855} event:/Wooshes
+{c5cd3eed-560a-4f19-9a01-4a41359e68e3} bus:/
+{7049f11b-5549-4df8-80ec-150af7dc6306} bus:/Reverb
+{1c5f7dd1-ba59-4f22-924c-322090e56181} bank:/Master Bank
