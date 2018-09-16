@@ -12,6 +12,7 @@ public class TestFMOD : MonoBehaviour {
 
 	private void Start() {
         musicEvent = FMODUnity.RuntimeManager.CreateInstance(thePath);
+        musicEvent.setVolume(0.8f);
         musicEvent.start();
 
 	}
