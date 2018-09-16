@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 114454513221340716}
-  - {fileID: 114945123822445634}
+  - {fileID: 114305501829632518}
   EditorEvents:
   - {fileID: 114825615692256044}
   - {fileID: 114180131850697674}
@@ -24,9 +24,9 @@ MonoBehaviour:
   - {fileID: 114914084338041004}
   - {fileID: 114990258940085062}
   - {fileID: 114966087413113558}
-  MasterBankRef: {fileID: 114945123822445634}
+  MasterBankRef: {fileID: 114305501829632518}
   StringsBankRef: {fileID: 114454513221340716}
-  stringsBankWriteTime: 636727082710000000
+  stringsBankWriteTime: 636727076510000000
   cacheVersion: 2
 --- !u!114 &114076430284782102
 MonoBehaviour:
@@ -42,15 +42,30 @@ MonoBehaviour:
   Path: event:/MainSong
   guid: a1a32a9eda12444fa7475a261a753f81
   Banks:
-  - {fileID: 114945123822445634}
+  - {fileID: 114305501829632518}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 114717943124953638}
+  - {fileID: 114096285325260372}
   MinDistance: 0
   MaxDistance: 0
   Length: 102047
+--- !u!114 &114096285325260372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Section
+  Min: 1
+  Max: 4
+  Default: 1
 --- !u!114 &114180131850697674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,7 +80,7 @@ MonoBehaviour:
   Path: event:/Wooshes
   guid: 4854a302b13be342b6c642c10b5a5855
   Banks:
-  - {fileID: 114945123822445634}
+  - {fileID: 114305501829632518}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -73,6 +88,25 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2000
+--- !u!114 &114305501829632518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Users/chriswratt/Documents/Unity/PointyHellGame/PointySong/Build/Desktop/Master
+    Bank.bank
+  lastModified: 636727076510000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 4897760
+  Exists: 1
 --- !u!114 &114368035089020642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87,7 +121,7 @@ MonoBehaviour:
   Path: event:/UISelect
   guid: 8056c7ad0c8f594ca11bb034871d6a1b
   Banks:
-  - {fileID: 114945123822445634}
+  - {fileID: 114305501829632518}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -107,7 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: PointySong/Build/Desktop/Master Bank.strings.bank
-  lastModified: 636727082710000000
+  lastModified: 636727076510000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -172,7 +206,7 @@ MonoBehaviour:
   Path: event:/GruntsHigh
   guid: 8b126b4c0462be4496280688d25d2316
   Banks:
-  - {fileID: 114945123822445634}
+  - {fileID: 114305501829632518}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -194,7 +228,7 @@ MonoBehaviour:
   Path: event:/UIEnter
   guid: 154e3c29c33a5143a2ddd83db09406cb
   Banks:
-  - {fileID: 114945123822445634}
+  - {fileID: 114305501829632518}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -216,7 +250,7 @@ MonoBehaviour:
   Path: event:/GruntsDeep
   guid: 73db56e10070ed4fa50af17ec9f3a20a
   Banks:
-  - {fileID: 114945123822445634}
+  - {fileID: 114305501829632518}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -238,7 +272,7 @@ MonoBehaviour:
   Path: event:/Footsteps
   guid: b9069d219e4c9f44838870e864e7a7a5
   Banks:
-  - {fileID: 114945123822445634}
+  - {fileID: 114305501829632518}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -298,7 +332,7 @@ MonoBehaviour:
   Path: event:/Ambience
   guid: f1ff77a9c8938949975ff7298e4c3de9
   Banks:
-  - {fileID: 114945123822445634}
+  - {fileID: 114305501829632518}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -320,7 +354,7 @@ MonoBehaviour:
   Path: event:/Squelch
   guid: b9a8200f90614043bc30908ac1d07ad3
   Banks:
-  - {fileID: 114945123822445634}
+  - {fileID: 114305501829632518}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
